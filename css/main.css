@@ -194,3 +194,58 @@ clear: both;
 }
 
 }
+
+@media print{
+
+	@page{
+		size: 3.5in 2in;
+		box-sizing: border-box; border: 4px solid black;
+	}
+
+
+	h1{
+	text-align: left;
+	font-size: 15pt;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	width:50%;
+
+}
+
+h2{
+	display: none;
+}
+
+a{
+	display: none;
+}
+
+p{
+	display:none;
+}
+.face{
+width: 50%;
+float: right;
+clear:both;
+}
+
+.art{
+	display: none;
+	}
+
+.photography{
+	display: none;
+}
+
+.background{
+	display: none;
+}
+
+.buttons{
+	display: none;
+}
+
+figure{
+	display:none;
+}
+}
