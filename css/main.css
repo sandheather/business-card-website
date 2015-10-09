@@ -49,3 +49,7 @@ p{
 width: 100%;
 }
 
+.art{
+	background: url("../images/illustration.jpg") center center / cover no-repeat;
+}
+
